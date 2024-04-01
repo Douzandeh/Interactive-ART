@@ -224,6 +224,44 @@ body {
     padding-left: 1rem;
 }
 
+.header {
+}
+.header-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem 0;
+}
+.nav {
+    display: flex;
+    align-items: center;
+}
+.nav-logo {
+    margin-right: 2rem;
+}
+.nav-logo__img {
+}
+.menu {
+    list-style-type: none;
+    padding-left: 0;
+    margin: 0;
+    display: flex;
+}
+.menu__item {
+}
+.menu__link {
+    text-decoration: none;
+    color: #081D43;
+    padding: 0 1rem;
+    
+}
+.header__link{
+    background-color: #0050C8;
+    padding: 0.8rem 1.5em;
+    color: #fff;
+    border-radius: 0.5rem;
+    text-decoration: none;
+}
 
 
 

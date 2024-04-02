@@ -336,8 +336,8 @@ body {
 /** Start Main */
 
 .main {
-    padding: 3rem 0;
-    background: #EEEEEE;
+  padding: 3rem 0;
+  background: #eeeeee;
 }
 .works {
   text-align: center;
@@ -374,6 +374,58 @@ body {
 
 .works-img__img {
   width: 100%;
+}
+
+/**Person-Comments Section*/
+
+.person-comments {
+  background-color: #2f5bea;
+  color: #ffff;
+  text-align: center;
+  padding: 2rem 0;
+}
+.person-comments__title {
+  font-family: "TTNorms medium";
+  font-weight: normal;
+}
+.person-comments__text {
+  font-family: "TTNorms medium";
+}
+.comments {
+  display: flex;
+  margin: 3.5rem 0;
+}
+.comment {
+  background-color: #fff;
+  margin: 1rem;
+  border-radius: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 17rem;
+}
+.comment__content {
+  text-align: left;
+  padding: 1.2rem;
+}
+.comment__body {
+  font-family: "Times Roman Italic";
+  color: #7e8085;
+  line-height: 1.5rem;
+  margin: 0;
+}
+.comment__info {
+  display: flex;
+  border-top: 1px solid #e8ebef;
+  padding: 0.8rem 1.2rem;
+  align-items: center;
+}
+.comment__img {
+}
+.comment__person {
+  color: #000;
+  margin: 0 0 0 0.5rem;
+  margin-left: 0.5rem;
 }
 
 /* Project Responsive */

@@ -391,9 +391,15 @@ body {
 .person-comments__text {
   font-family: "TTNorms medium";
 }
+
+.comments-container {
+  max-width: 65rem;
+  margin: 3.5rem auto 0 auto;
+}
+
 .comments {
   display: flex;
-  margin: 3.5rem 0;
+  justify-content: space-between;
 }
 .comment {
   background-color: #fff;
@@ -402,7 +408,8 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  height: 17rem;
+  min-height: 18rem;
+  flex-basis: 20rem;
 }
 .comment__content {
   text-align: left;
@@ -426,6 +433,17 @@ body {
   color: #000;
   margin: 0 0 0 0.5rem;
   margin-left: 0.5rem;
+}
+
+.companies {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 5rem;
+}
+.companies__img {
+  display: block;
+  margin: 1rem;
 }
 
 /* Project Responsive */

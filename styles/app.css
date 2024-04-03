@@ -342,11 +342,14 @@ body {
 .works {
   text-align: center;
 }
-.works__text {
+.works__text,
+.portfolio__text {
   color: #6c7890;
   margin-bottom: 0;
+  text-transform: uppercase;
 }
-.works__title {
+.works__title,
+.portfolio__title {
   color: #081d43;
   margin-top: 0.8rem;
 }
@@ -444,6 +447,29 @@ body {
 .companies__img {
   display: block;
   margin: 1rem;
+}
+
+.portfolio {
+  text-align: center;
+  padding: 2rem 0;
+}
+.portfolio__text {
+}
+.portfolio__title {
+}
+.portgolio-items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.portfolio__item {
+  flex-basis: 23rem;
+  margin-bottom: 2rem;
+  border-radius: 2.5rem;
+  overflow: hidden;
+}
+.portfolio__img {
+  width: 100%;
 }
 
 /* Project Responsive */
